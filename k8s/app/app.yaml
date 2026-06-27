@@ -19,8 +19,8 @@ spec:
     spec:
       containers:
         - name: test-app
-          image: pavankumar5/test_app:latest
-          imagePullPolicy: Always
+          image: pavankumar5/test_app:4a4d9f4
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
           resources:

@@ -1,0 +1,46 @@
+# Binaries
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+test_app
+server
+
+# Test & coverage
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Go
+vendor/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & editor
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Agent / local tooling
+agent-transcripts/
+
+# Kubernetes monitoring (not tracked)
+k8s/monitoring/
+k8s/monotoring/
